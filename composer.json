@@ -1,0 +1,22 @@
+{
+    "name": "chenframe/container",
+    "description": "the container package of chenframe",
+    "authors": [
+        {
+            "name": "chenxiansen",
+            "email": "1849132652@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "psr/container": "^1.0",
+        "chenframe/promise": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chenframe\\Container\\": ""
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
